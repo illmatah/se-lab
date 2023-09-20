@@ -1,11 +1,10 @@
-//This is a very angry comment to show how dissatisfied I am with the code here
 package hu.bme.mit.spaceship;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.mockito.Mockito.*;
+import static org.mockito.Mockito.*;  //This is an ambivalent edit
 
 public class GT4500Test {
 
