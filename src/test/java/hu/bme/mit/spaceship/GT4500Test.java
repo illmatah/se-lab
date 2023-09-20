@@ -1,4 +1,5 @@
 //This is a happy comment since I am fully satisfied with the code
+//This is also a happy comment since smiles are contagious
 package hu.bme.mit.spaceship;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
