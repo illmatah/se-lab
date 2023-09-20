@@ -29,7 +29,8 @@ public class GT4500 implements SpaceShip {
   * 			- To give some cooling time to the torpedo stores, torpedo stores are fired alternating.
   * 			- But if the store next in line is empty, the ship tries to fire the other store.
   * 			- If the fired store reports a failure, the ship does not try to fire the other one.
-  * 	ALL:	tries to fire both of the torpedo stores.
+  * 	ALL:	- tries to fire both of the torpedo stores.
+  *         - returns successful launch only if both of them were fired successfully
   *
   * @return whether at least one torpedo was fired successfully
   */
@@ -78,8 +79,7 @@ public class GT4500 implements SpaceShip {
 
       case ALL:
         // try to fire both of the torpedo stores
-        //TODO implement feature
-
+        firingSuccess = primaryTorpedoStore.fire(1) && secondaryTorpedoStore.fire(1);
         break;
     }
 
