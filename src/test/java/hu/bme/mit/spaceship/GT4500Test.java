@@ -1,4 +1,4 @@
-//This is a very angry comment to show how dissatisfied I am with the code here
+//This is a happy comment since I am fully satisfied with the code
 package hu.bme.mit.spaceship;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
