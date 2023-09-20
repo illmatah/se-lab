@@ -1,3 +1,4 @@
+//This is a happy comment since I am fully satisfied with the code
 package hu.bme.mit.spaceship;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
